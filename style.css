@@ -21,16 +21,18 @@ body {
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #a0c4ff;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .links {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .links a {
   display: inline-block;
-  margin: 0 10px;
   text-decoration: none;
   color: #0077b6;
   font-weight: bold;
@@ -44,13 +46,13 @@ body {
 h1 {
   font-size: 2.5rem;
   color: #023e8a;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 1.4rem;
   color: #555;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-weight: 400;
 }
 
